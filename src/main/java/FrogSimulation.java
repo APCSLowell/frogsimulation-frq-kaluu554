@@ -34,9 +34,9 @@ public class FrogSimulation
 	public double runSimulations(int num)
 	{ 
 		/* to be implemented in part (b) */ 
-		double wins = 0;
+		double win = 0;
 		for(int i = 0; i<num; i++){
-		 if(simulate == true){
+		 if(simulate() == true){
 			win++;
 		 }
 		}
